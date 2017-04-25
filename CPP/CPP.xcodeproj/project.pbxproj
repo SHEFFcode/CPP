@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E87593D61EAEF7B200FE3ABA /* Operators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E87593D41EAEF7B200FE3ABA /* Operators.cpp */; };
+		E87593DA1EAF05E600FE3ABA /* Conditionals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E87593D81EAF05E600FE3ABA /* Conditionals.cpp */; };
 		E8BC5FAE1EAECD6C003C6472 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8BC5FAD1EAECD6C003C6472 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		E87593D41EAEF7B200FE3ABA /* Operators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Operators.cpp; sourceTree = "<group>"; };
 		E87593D71EAEF81900FE3ABA /* Operators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operators.h; sourceTree = "<group>"; };
+		E87593D81EAF05E600FE3ABA /* Conditionals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Conditionals.cpp; sourceTree = "<group>"; };
+		E87593D91EAF05E600FE3ABA /* Conditionals.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Conditionals.hpp; sourceTree = "<group>"; };
 		E8BC5FAA1EAECD6C003C6472 /* CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BC5FAD1EAECD6C003C6472 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +66,8 @@
 				E8BC5FAD1EAECD6C003C6472 /* main.cpp */,
 				E87593D41EAEF7B200FE3ABA /* Operators.cpp */,
 				E87593D71EAEF81900FE3ABA /* Operators.h */,
+				E87593D81EAF05E600FE3ABA /* Conditionals.cpp */,
+				E87593D91EAF05E600FE3ABA /* Conditionals.hpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87593DA1EAF05E600FE3ABA /* Conditionals.cpp in Sources */,
 				E8BC5FAE1EAECD6C003C6472 /* main.cpp in Sources */,
 				E87593D61EAEF7B200FE3ABA /* Operators.cpp in Sources */,
 			);
