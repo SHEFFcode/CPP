@@ -12,6 +12,8 @@
 #include "Conditionals.hpp"
 #include "Arrays.hpp"
 #include "ReferenceVariables.hpp"
+#include "Pointers.hpp"
+#include "DynamicAllocaitonOfMemory.hpp"
 
 using namespace std;
 
@@ -70,6 +72,9 @@ int main(int argc, const char * argv[]) {
 //    runConditionals();
 //    runArrays();
     
-    runReference();
+//    runReference();
+    
+//    runPointers();
+    runDynamicAllocaiton();
 
 }
