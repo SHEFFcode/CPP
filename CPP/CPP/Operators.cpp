@@ -79,7 +79,14 @@ void run () {
     
     /*
         000000000000000000000000000000000 1 0 1 0
-        111111111111111111111111111111111 0 1 0 1
+        111111111111111111111111111111111 0 1 0 1 - 1s make for anegative number
+     */
+    
+    cout << (10 << 1) << endl; // we are multiplying 10 by 2 raised to the power of 1, pointing the other way will devide in the same manner
+    
+    /*
+        000000000000000000000000000000000 1 0 1 0 - now last guy move to the left side
+        000000000000000000000000000000001 0 1 0 0 - is now the result
      */
     
 }
