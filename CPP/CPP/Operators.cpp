@@ -31,6 +31,55 @@ void run () {
     
     //bitwise operators
     
+    /*
+        1 0 1 0 = 1 * 2 ^ 3 + 0 * 2 ^ 2 + 1 * 2 ^ 1 + 0 * 2 ^ 0 = 8 + 0 + 2 + 0 = 10 in decimal notation 
+     
+        1 0 1 1 0 0 = 2 ^ 5 + 2 ^ 3 + 2 ^ 2 = 32 + 8 + 4 = 44 in decimal notation
+     
+     */
     
+    /*
+        Bitwise AND - &
+        Bitwise OR - |
+        Bitwise NOT - ~ (tilde)
+        Bitwise XOR - ^ (caret) eXclusive OR
+        Bitwise left shift <<
+        Bitwise right shift >>
+     */
+    
+    
+    cout << (10 & 2) << endl;
+    
+    /*
+        1 0 1 0
+        0 0 1 0
+        -------
+        0 0 1 0
+     */
+    
+    cout << (10 | 2) << endl;
+    
+    /*
+        1 0 1 0 
+        0 0 1 0
+        -------
+        1 0 1 0
+     */
+    
+    cout << (10 ^ 2) << endl;
+    
+    /*
+        1 0 1 0
+        0 0 1 0
+        -------
+        1 0 0 0
+     */
+    
+    cout << (~10) << endl;
+    
+    /*
+        000000000000000000000000000000000 1 0 1 0
+        111111111111111111111111111111111 0 1 0 1
+     */
     
 }
