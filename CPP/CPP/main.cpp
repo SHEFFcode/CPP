@@ -10,6 +10,7 @@
 #include <iostream>
 #include "Operators.h"
 #include "Conditionals.hpp"
+#include "Arrays.hpp"
 
 using namespace std;
 
@@ -66,5 +67,6 @@ int main(int argc, const char * argv[]) {
     
     run();
     runConditionals();
+    runArrays();
 
 }

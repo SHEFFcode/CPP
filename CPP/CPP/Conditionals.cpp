@@ -38,6 +38,13 @@ void runConditionals() {
             cout << "Hey it's not 50!";
             break;
     }
+    
+    int c = 30;
+    int d = 20;
+    
+    
+    //Ternary statement
+    string message = (a > b) ? "a > b" : "a <= b";
         
     
     
