@@ -11,6 +11,7 @@
 #include "Operators.h"
 #include "Conditionals.hpp"
 #include "Arrays.hpp"
+#include "ReferenceVariables.hpp"
 
 using namespace std;
 
@@ -65,8 +66,10 @@ int main(int argc, const char * argv[]) {
     //Operators
     
     
-    run();
-    runConditionals();
-    runArrays();
+//    run();
+//    runConditionals();
+//    runArrays();
+    
+    runReference();
 
 }
